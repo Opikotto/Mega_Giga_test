@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.button__inline button { 
+     display:inline-block;
+     margin-right: 10px;
+}
+.button__inline {
+     display: flex;
+    justify-content: center;
+}
+body .table thead th {
+     border-width: 0 0 1px;
+     color: #363636;
+ }
+body .table td {
+     font-size:12px;
+}
+
+.popup-custom.hidden {
+     position:relative;
+     display:none;
+}
+.popup-custom.show {
+     position:relative;
+     display:block;
+     z-index:1;
+}
+.bg_custom.hidden{
+     position: absolute;
+     width: 100vw;
+     z-index: 0;
+     height: 100vh;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: transparent;
+     display:none;
+ }
+ .bg_custom.show {
+     position: absolute;
+     width: 100vw;
+     z-index: 1;
+     height: 100vh;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: transparent;
+     display: block;
+ }
+table th {
+     font-size: 13px;
+}
+.data_kosong h1 {
+     text-align: center;
+}
+.container button {
+     height:30px;
+     font-size:13px;
+}
+.controls p {
+     color:red;
+     font-size: 13px;
+     margin-top: 5px;
+}
+.regis {
+     color:#363636;
+     font-size:12px;
+     display: flex;
+     justify-content: flex-end;
+}
